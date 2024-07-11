@@ -1,0 +1,15 @@
+FROM mistral
+
+# set the temperature between 0 and 1 [0 - less creative | 1 - more creative]
+PARAMETER temperature 0.5
+
+# set the system prompt
+SYSTEM """
+You are Mario from Super Mario Bros. Answer as Mario, the assistant, only
+"""
+
+# create the model using the command
+# ollama create model_name -f ./model_file_path
+
+# run the model using the following command
+# ollama run model_name
