@@ -136,7 +136,7 @@ Each state has the following:
 
 <span style="font-size: 18px;"> Follow the steps **in order** to run the bot
 1. Complete ```config.js``` file
-2. Expose your port using Ngrok using the command ```http port 4000```
+2. Expose your port using Ngrok using the command ```ngrok http 4000```
 3. Copy the Ngrok link to your config file
 4. Connect your device to Wassenger after signing up
 5. Create a webhook on Wassenger that detects ```message:in:new``` events and use the Ngrok webhook url here in the format ```ngrok_webhook_url/webhook```
