@@ -29,7 +29,7 @@ Whatbot is a WhatsApp chatbot that can:
     * **Sample Messages:** Uses hardcoded data formatted according to Wassenger's API documentation. 
     * **General Questions:** Powered by Ollama's Llama3 model running locally.
     * **PDF Questions:** 
-        * Uses Langchain's library methods according to the RAG (Retrieval-Augmented Generation) method.
+        * Uses Langchain's library methods according to the RAG (Retrieval-Augmented Generation) process.
         * Leverages Ollama's Llama3 model running locally to provide contextually accurate answers.
     * **Image Generation:** Uses the Stable Diffusion API.
 
@@ -70,7 +70,7 @@ Each state has the following:
 
 ### State 3 -- General Q/A
 * The user sends any questions that they might have.
-* The messages are transferred to the LLM agent/
+* The messages are transferred to the LLM agent.
 * The agent asks the locally running Ollama LLama3 model to get the answer.
 * The response is sent back to the sender.
 
