@@ -146,5 +146,5 @@ Each state has the following:
 7. Refresh the Wassenger webhook if it shuts down (this happens a lot)
 8. Send messages to the connected device and watch the bot in action 
 
-## Demo Video!! 🎥
+<!-- ## Demo Video!! 🎥 -->
 
