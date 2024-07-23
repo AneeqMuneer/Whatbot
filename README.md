@@ -136,15 +136,16 @@ Each state has the following:
 
 <span style="font-size: 18px;"> Follow the steps **in order** to run the bot
 1. Complete ```config.js``` file
-2. Expose your port using Ngrok using the command ```ngrok http 4000```
-3. Copy the Ngrok link to your config file
-4. Connect your device to Wassenger after signing up
-5. Create a webhook on Wassenger that detects ```message:in:new``` events and use the Ngrok webhook url here in the format ```ngrok_webhook_url/webhook```
-6. Open two instances of the terminal.
+2. Open the terminal and type the command ```npm i``` to install all the necessary libraries and their dependencies
+3. Expose your port using Ngrok using the command ```ngrok http 4000```
+4. Copy the Ngrok link to your config file
+5. Connect your device to Wassenger after signing up
+6. Create a webhook on Wassenger that detects ```message:in:new``` events and use the Ngrok webhook url here in the format ```ngrok_webhook_url/webhook```
+7. Open two instances of the terminal.
     * Run ```bot.js``` on the first one
     * Run ```agent.js``` on the second one
-7. Refresh the Wassenger webhook if it shuts down (this happens a lot)
-8. Send messages to the connected device and watch the bot in action 
+8. Refresh the Wassenger webhook if it shuts down (this happens a lot)
+9. Send messages to the connected device and watch the bot in action 
 
 <!-- ## Demo Video!! 🎥 -->
 
